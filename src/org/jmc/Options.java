@@ -99,12 +99,12 @@ public class Options
 	/**
 	 * Lower bound of the volume to export.
 	 */
-	public static int minX=-32, minY=0, minZ=-32;
+	public static int minX=-32, minY=-64, minZ=-32;
 
 	/**
 	 * Upper bound of the volume to export.
 	 */
-	public static int maxX=32, maxY=256, maxZ=32;
+	public static int maxX=32, maxY=320, maxZ=32;
 
 	/**
 	 * How to scale the exported geometry.
@@ -114,7 +114,7 @@ public class Options
 	/**
 	 * How to offset the coordinates of the exported geometry.
 	 */
-	public static OffsetType offsetType = OffsetType.NONE;
+	public static OffsetType offsetType = OffsetType.CENTER;
 
 	/**
 	 * Custom offset.
