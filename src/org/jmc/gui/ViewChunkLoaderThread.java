@@ -97,7 +97,7 @@ public class ViewChunkLoaderThread implements ChunkLoaderThread {
 		chunkQueue = new ThreadInputQueue();
 		chunksToDo = new AtomicInteger();
 		
-		floor = 0;
+		floor = -64;
 		ceiling = Integer.MAX_VALUE;
 		yBoundsChanged = false;
 	}
