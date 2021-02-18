@@ -35,7 +35,7 @@
 		<copy file="${basedir}/data/version.xml" tofile="${basedir}/bin/data/version.xml" overwrite="true" />
 
 
-		<jar destfile="${basedir}/JAR/jMc2Obj-${version}.jar" filesetmanifest="mergewithoutmain">
+		<jar destfile="${basedir}/JAR/jMc2Obj-${version}_SNAPSHOT.jar" filesetmanifest="mergewithoutmain">
 			<manifest>
 				<attribute name="Main-Class" value="org.jmc.Main" />
 				<attribute name="Class-Path" value="." />
